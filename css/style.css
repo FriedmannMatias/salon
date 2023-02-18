@@ -342,6 +342,11 @@ input {
         margin-top: 0;
     }
 
+    .carousel-item img{
+        height: 400px;
+        object-fit: cover;
+        object-position: right;
+    }
     /* Some Text - INDEX */
     .main-texto {
         height: auto;
@@ -408,6 +413,7 @@ input {
         display: flex;
         width: auto;
         justify-content: space-around;
+        text-decoration: none;
     }
 
     .button-primary {
