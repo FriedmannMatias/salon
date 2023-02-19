@@ -344,6 +344,7 @@ input {
 
     .carousel-item img{
         height: 400px;
+        max-height: 400px;
         object-fit: cover;
         object-position: right;
     }
@@ -596,4 +597,33 @@ input {
     }
 
 
+}
+
+
+
+/* Main - SALONES*/
+
+.maps {
+    width: 90%;
+    height: 90%;
+}
+
+.salones-info {
+    margin-top: 40px;
+}
+
+.galeria div img{
+    width: 80%;
+    margin: 40px;
+    object-fit: cover;
+    object-position: center;
+    object-position: center;
+    
+}
+
+.galeria-tittle h3{
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    text-decoration: underline;
 }
