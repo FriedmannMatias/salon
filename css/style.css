@@ -92,7 +92,6 @@
 .footer-links a {
     color: white;
     font-size: 55px;
-
 }
 
 /* Main - INDEX */
@@ -106,11 +105,13 @@
 .carousel-item {
     height: fit-content;
     margin-top: 40px;
+    max-height: 495px;
 }
 
 .carousel {
     margin-top: 20px;
 }
+
 
 /* text and cards */
 
@@ -288,7 +289,7 @@ input {
 /* Main - NOSOTROS */
 
 
-.main-nosotros{
+.main-nosotros {
     width: 90%;
     display: flex;
     margin: auto;
@@ -296,37 +297,106 @@ input {
     height: 100%;
 }
 
-.container-img{
+.container-img {
     width: 50%;
     display: flex;
     height: fit-content;
     margin: auto;
 }
 
-.container-img img{
+.container-img img {
     width: 100%;
     width: 80%;
     min-width: 20%;
 }
 
-.nosotros-text{
+.nosotros-text {
     width: 50%;
     line-height: 30px;
     margin: auto;
 }
 
-.nosotros-text h3{
+.nosotros-text h3 {
     font-size: 30px;
     margin-bottom: 5px;
 }
 
-.nosotros-text h4{
+.nosotros-text h4 {
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.nosotros-text p{
+.nosotros-text p {
     margin-bottom: 8px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+
+.team-cards {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 30px;
+    text-align: center;
+    transition: all .38s ease;
+}
+
+.team-cards:hover {
+    transform: translateY(-10px);
+}
+
+.team-cards img {
+    object-fit: cover;
+    width: 100%;
+    padding: 5px;
+}
+
+.team-tittle h4 {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Main - SALONES*/
+
+.maps {
+    width: 90%;
+    height: 90%;
+    min-height: 250px;
+}
+
+.salones-info {
+    margin-top: 40px;
+}
+
+.galeria div {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria div img {
+    width: 80%;
+    margin: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.galeria-tittle h3 {
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.maps-container {
+    display: flex;
+    justify-content: center;
 }
 
 /* @MEDIA */
@@ -342,12 +412,13 @@ input {
         margin-top: 0;
     }
 
-    .carousel-item img{
+    .carousel-item img {
         height: 400px;
         max-height: 400px;
         object-fit: cover;
         object-position: right;
     }
+
     /* Some Text - INDEX */
     .main-texto {
         height: auto;
@@ -372,7 +443,7 @@ input {
     .footer-links a {
         font-size: 36px;
     }
-    
+
     .footer-container {
         height: 100px;
     }
@@ -452,7 +523,6 @@ input {
 
     .inpar {
         display: flex;
-        flex-direction: unset;
         flex-direction: column;
     }
 
@@ -482,7 +552,6 @@ input {
 
     /* Main - CONTACTO*/
 
-
     .contact-container {
         display: flex;
         flex-direction: column;
@@ -511,7 +580,6 @@ input {
     .contact-icons i {
         font-size: 18px;
         margin-top: 15px;
-
     }
 
     .contact-form {
@@ -551,79 +619,44 @@ input {
     }
 
     /* Main - NOSOTROS*/
-    
-    .main-nosotros{
-        width: 90%;
-        display: flex;
-        margin: auto;
+
+    .main-nosotros {
         margin-top: 40px;
         height: 100%;
-
         flex-direction: column;
     }
 
-    .container-img{
+    .container-img {
         width: 80%;
         margin: auto;
         margin-bottom: 30px;
     }
 
-    .container-img img{
+    .container-img img {
         width: 100%;
         height: fit-content;
         margin: auto;
     }
 
-    .nosotros-text{
+    .nosotros-text {
         width: 80%;
         line-height: 30px;
         margin: auto;
     }
 
-    .nosotros-text h3{
+    .nosotros-text h3 {
         font-size: 30px;
         margin-bottom: 8px;
         text-align: center;
     }
 
-    .nosotros-text h4{
+    .nosotros-text h4 {
         font-size: 18px;
         margin-bottom: 15px;
         text-align: center;
     }
 
-    .nosotros-text p{
+    .nosotros-text p {
         margin-bottom: 8px;
     }
-
-
-}
-
-
-
-/* Main - SALONES*/
-
-.maps {
-    width: 90%;
-    height: 90%;
-}
-
-.salones-info {
-    margin-top: 40px;
-}
-
-.galeria div img{
-    width: 80%;
-    margin: 40px;
-    object-fit: cover;
-    object-position: center;
-    object-position: center;
-    
-}
-
-.galeria-tittle h3{
-    text-align: center;
-    margin: 50px;
-    font-size: 40px;
-    text-decoration: underline;
 }
