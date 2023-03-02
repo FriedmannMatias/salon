@@ -1,0 +1,37 @@
+
+.salones-info {
+    margin-top: 40px;
+    .maps-container {
+        display: flex;
+        justify-content: center;
+        .maps {
+            width: 90%;
+            height: 90%;
+            min-height: 250px;
+        }
+    }
+    
+}
+
+.galeria-tittle {
+    h3 {
+        text-align: center;
+        margin: 50px;
+        font-size: 40px;
+        text-decoration: underline;
+    }
+}
+
+
+.galeria {
+    div {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 80%;
+            margin: 40px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}

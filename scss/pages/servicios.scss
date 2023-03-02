@@ -1,0 +1,43 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+    .service {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        margin: 50px auto;
+        padding: 30px;
+        border: 1px solid #E4E5E7;
+
+        .service-img {
+            max-width: 500px;
+            width: 50%;
+            height: fit-content;
+        }
+
+        .service-info {
+            h3 {
+                margin-left: 40px;
+            }
+
+            p {
+                margin-top: 20px;
+                margin-left: 40px;
+            }
+        }
+
+    }
+
+    .inpar {
+        display: flex;
+        flex-direction: row-reverse;
+
+        p {
+            margin-right: 40px;
+        }
+    }
+}

@@ -1,20 +1,20 @@
 /* CSS RESET*/
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 /* estilos generales */
-.tittle {
+/* .tittle {
     font-size: 50px;
     text-align: center;
     margin: 10px;
     margin-top: 50px;
-}
+} */
 
-/* NAV */
+/* NAV
 .navbar {
     box-shadow: 0 4px 5px #e5e5e5;
     background-color: white;
@@ -52,10 +52,10 @@
 .dropdown-item:hover {
     background-color: black;
     color: white;
-}
+} */
 
 /* FOOTER */
-
+/* 
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -92,12 +92,12 @@
 .footer-links a {
     color: white;
     font-size: 55px;
-}
+} */
 
 /* Main - INDEX */
 
 /* carousel */
-.container-lg {
+/* .container-lg {
     margin: auto;
     padding: 0;
 }
@@ -112,10 +112,17 @@
     margin-top: 20px;
 }
 
+.carousel-item img {
+    height: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: right;
+} */
+
 
 /* text and cards */
 
-.main-texto {
+/* .main-texto {
     height: auto;
     margin: 70px;
     line-height: 50px;
@@ -128,8 +135,8 @@
 
 .main-texto p {
     font-size: 16px;
-}
-
+} */
+/* 
 .cards-container {
     display: flex;
     justify-content: space-evenly;
@@ -141,12 +148,13 @@
     flex-direction: column;
     width: 350px;
     margin-top: 30px;
-    transition: box-shadow 0.3s ease;
     border: none;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.45);
+    transition: all .38s ease;
 }
 
 .card:hover {
-    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.45);
+    transform: translateY(-10px);
 }
 
 .card-img {
@@ -176,10 +184,10 @@
     padding: 10px;
     background-color: #ffff;
     color: #000000;
-}
+} */
 
 /* Main - SERVICES*/
-
+/* 
 .services {
     display: flex;
     flex-direction: column;
@@ -219,10 +227,10 @@
 .service-info p {
     margin-top: 20px;
     margin-left: 40px;
-}
+} */
 
 /* Main - CONTACTO*/
-
+/* 
 .contact-container {
     display: flex;
     width: 60%;
@@ -284,11 +292,11 @@ label {
 
 input {
     display: block;
-}
+} */
 
 /* Main - NOSOTROS */
 
-
+/* 
 .main-nosotros {
     width: 90%;
     display: flex;
@@ -361,11 +369,11 @@ input {
 .team-tittle h4 {
     text-align: center;
     padding: 50px;
-}
+} */
 
 /* Main - SALONES*/
 
-.maps {
+/* .maps {
     width: 90%;
     height: 90%;
     min-height: 250px;
@@ -397,7 +405,7 @@ input {
 .maps-container {
     display: flex;
     justify-content: center;
-}
+} */
 
 /* @MEDIA */
 
@@ -420,6 +428,7 @@ input {
     }
 
     /* Some Text - INDEX */
+    
     .main-texto {
         height: auto;
         margin: 10px;
@@ -433,7 +442,7 @@ input {
 
     .main-texto p {
         font-size: 12px;
-    }
+    } */
 
     /* Footer */
     #copyright p {

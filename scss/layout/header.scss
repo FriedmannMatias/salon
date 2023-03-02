@@ -1,0 +1,38 @@
+.navbar {
+    box-shadow: 0 4px 5px #e5e5e5;
+    background-color: white;
+
+    .header-nav {
+        max-width: 1500px;
+
+        .logo {
+            max-height: 50px;
+            padding-left: 27px;
+        }
+
+        .navbar-collapse {
+            flex-grow: 0.1;
+
+            .nav-link {
+                font-size: 20px;
+            }
+
+            .dropdown-menu {
+                border-radius: 0%;
+
+                .dropdown-item:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+
+        .navbar-toggler {
+            border: none;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}

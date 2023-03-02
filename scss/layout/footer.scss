@@ -1,0 +1,37 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #292929;
+    margin-top: 100px;
+
+    #copyright {
+        display: flex;
+        align-items: center;
+
+        p {
+            color: white;
+            margin: 0;
+        }
+    }
+
+    .footer-links {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            margin: 30px;
+            justify-content: space-around;
+        }
+
+        a {
+            color: white;
+            font-size: 55px;
+        }
+    }
+}

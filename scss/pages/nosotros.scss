@@ -1,0 +1,80 @@
+.main-nosotros {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    height: 100%;
+
+    .container-img {
+        width: 50%;
+        display: flex;
+        height: fit-content;
+        margin: auto;
+
+        img {
+            width: 100%;
+            width: 80%;
+            min-width: 20%;
+        }
+    }
+
+    .nosotros-text {
+        width: 50%;
+        line-height: 30px;
+        margin: auto;
+
+        h3 {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 8px;
+        }
+    }
+}
+
+
+.team-tittle {
+    h4 {
+        text-align: center;
+        padding: 50px;
+    }
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+
+    .team-cards {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin-top: 30px;
+        text-align: center;
+        transition: all .38s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}

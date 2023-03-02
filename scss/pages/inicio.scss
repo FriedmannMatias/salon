@@ -1,0 +1,92 @@
+//carousel
+.container-lg {
+    margin: auto;
+    padding: 0;
+    margin-top: 20px;
+
+    .carousel-item {
+        height: fit-content;
+        margin-top: 40px;
+        max-height: 495px;
+
+        img {
+            height: 400px;
+            max-height: 400px;
+            object-fit: cover;
+            object-position: right;
+        }
+    }
+}
+
+//text and cards
+
+.main-texto {
+    height: auto;
+    margin: 70px;
+    line-height: 50px;
+    text-align: center;
+
+    h3 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin-top: 30px;
+        box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.45);
+        transition: all .38s linear;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-img {
+            width: 100%;
+            padding: 5px;
+            border-radius: 8px;
+        }
+
+        .card-info {
+            h3 {
+                padding: 10px;
+                text-align: center;
+            }
+
+            p {
+                padding: 10px;
+            }
+
+            .button-primary {
+                margin: 20px;
+                padding: 10px;
+                background-color: #000000;
+                color: #E4E5E7;
+
+                &:hover {
+                    margin: 20px;
+                    padding: 10px;
+                    background-color: #ffff;
+                    color: #000000;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
