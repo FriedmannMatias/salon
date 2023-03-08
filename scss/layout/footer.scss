@@ -31,7 +31,22 @@
 
         a {
             color: white;
-            font-size: 55px;
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    #copyright {
+        p {
+            font-size: 10px;
+        }
+    }
+    
+    .footer-links {
+        a {
+            font-size: 10px;
         }
     }
 }

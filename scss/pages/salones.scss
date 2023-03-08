@@ -1,16 +1,17 @@
-
 .salones-info {
     margin-top: 40px;
+
     .maps-container {
         display: flex;
         justify-content: center;
+
         .maps {
             width: 90%;
             height: 90%;
             min-height: 250px;
         }
     }
-    
+
 }
 
 .galeria-tittle {
@@ -27,6 +28,7 @@
     div {
         display: flex;
         justify-content: center;
+
         img {
             width: 80%;
             margin: 40px;
@@ -34,4 +36,8 @@
             object-position: center;
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    
 }

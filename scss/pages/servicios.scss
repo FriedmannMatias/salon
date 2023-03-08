@@ -41,3 +41,38 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .services {
+        width: 95%;
+        height: 100%;
+        
+        .service {
+            flex-direction: column;
+            margin: 30px auto;
+            padding: 0px;
+    
+            .service-img {
+                width: 100%;
+                height: 20%;
+                margin: auto;
+            }
+    
+            .service-info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                width: 80%;
+                margin: auto;
+
+                h3 {
+                    margin: 15px auto;
+                }
+                p {
+                    margin: 0px 7px;
+                }
+            }
+        }
+    }
+}

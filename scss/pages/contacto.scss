@@ -19,39 +19,85 @@
 
         .contact-icons {
 
-            p,i {
+            p,
+            i {
                 font-size: 25px;
                 margin-top: 15px;
             }
         }
     }
-    
+
     .form-container {
         width: 50%;
+
         .contact-form {
             display: flex;
             flex-direction: column;
             font-size: 20px;
+
             .form-text {
                 font-size: 15px;
             }
+
             .form-box {
                 border: 1px solid #E4E5E7;
                 background-color: #FcFcFc;
                 padding: 10px;
             }
+
             .button {
                 margin: 20px;
                 padding: 10px;
                 background-color: #000000;
                 color: #E4E5E7;
             }
+
             label {
                 margin: 10px;
                 display: block;
             }
+
             input {
                 display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        width: unset;
+        gap: 50px;
+        margin-top: 10px;
+    
+        .information {
+            width: unset;
+            text-align: center;
+    
+            h3 {
+                font-size: 22px;
+            }
+    
+            p {
+                font-size: 15px;
+            }
+    
+            .contact-icons {
+    
+                p,
+                i {
+                    font-size: 18px;
+                }
+            }
+        }
+    
+        .form-container {
+            width: 90%;
+    
+            .contact-form {
+                font-size: 18px;
             }
         }
     }
