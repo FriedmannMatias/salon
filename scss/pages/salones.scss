@@ -14,16 +14,6 @@
 
 }
 
-.galeria-tittle {
-    h3 {
-        text-align: center;
-        margin: 50px;
-        font-size: 40px;
-        text-decoration: underline;
-    }
-}
-
-
 .galeria {
     div {
         display: flex;
@@ -36,8 +26,4 @@
             object-position: center;
         }
     }
-}
-
-@media screen and (max-width: 768px) {
-    
 }

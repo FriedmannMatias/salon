@@ -103,9 +103,7 @@
     //text and cards
     
     .main-texto {
-        height: auto;
         margin: 20px;
-        text-align: center;
         line-height: 15px;
 
         h3 {
@@ -128,10 +126,6 @@
             width: 90%; 
             box-shadow: none;
             border: none;
-
-            .card-img {
-                width: 100%;
-            }
     
             .card-info {
                 h3 {
