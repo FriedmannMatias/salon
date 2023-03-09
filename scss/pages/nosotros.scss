@@ -47,18 +47,13 @@
 }
 
 .team {
-    display: flex;
-    justify-content: space-evenly;
+    @include flexbox (row, space-evenly, center);
     flex-wrap: wrap;
     margin: auto;
     padding: auto;
-    align-items: center;
 
     .team-cards {
-        display: flex;
-        flex-direction: column;
-        width: 350px;
-        margin-top: 30px;
+        @include card;
         text-align: center;
         transition: all .38s ease;
 

@@ -1,0 +1,14 @@
+//mixin en cards del index y equipo de trabajo
+@mixin card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 30px;
+}
+
+@mixin flexbox ($direction, $justify-content, $align-items){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
