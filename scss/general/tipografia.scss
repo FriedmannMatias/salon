@@ -28,10 +28,3 @@
     background-color: #000000;
     color: #E4E5E7;
 }
-
-@mixin card ($flex){
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    margin-top: 30px;
-}
