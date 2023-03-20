@@ -13,7 +13,8 @@
 
         img {
             width: 80%;
-            min-width: 20%;
+            max-width: 600px;
+            margin: auto;
         }
     }
 
@@ -75,7 +76,8 @@
         flex-direction: column;
         
         .container-img {
-            width: 80%;
+            width: 100%;
+            margin-bottom: 20px;
 
             img {
                 height: fit-content;

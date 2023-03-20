@@ -1,3 +1,11 @@
+header {
+    z-index: 100000;
+    width: 100%;
+    top: 0;
+}
+main {
+    margin-top: 75px;
+}
 .navbar {
     box-shadow: 0 4px 5px #e5e5e5;
     background-color: white;
