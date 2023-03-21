@@ -66,27 +66,51 @@
                 padding: 10px;
                 font-size: 16px;
             }
-            
+
             a {
                 display: flex;
                 justify-content: space-around;
                 text-decoration: none;
-            }
 
-            .button-primary {
-                margin: 20px;
-                padding: 10px;
-                background-color: $secondary-color;
-                color: $primary-color;
-
-                &:hover {
+                .button-primary {
                     margin: 20px;
                     padding: 10px;
-                    background-color: $primary-color;
-                    color: $secondary-color;
-                }
+                    background-color: $secondary-color;
+                    color: $primary-color;
 
+                    &:hover {
+                        margin: 20px;
+                        padding: 10px;
+                        background-color: $primary-color;
+                        color: $secondary-color;
+                    }
+                }
             }
+        }
+    }
+}
+
+.card-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url("../../multimedia/card-contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include flexbox (column, center, center);
+    height: 500px;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    .button-primary {
+        margin: 20px;
+        padding: 10px;
+        background-color: $secondary-color;
+        color: $primary-color;
+
+        &:hover {
+            margin: 20px;
+            padding: 10px;
+            background-color: $primary-color;
+            color: $secondary-color;
         }
     }
 }
@@ -96,9 +120,9 @@
     .container-lg {
         margin-top: 0;
     }
-    
+
     //text and cards
-    
+
     .main-texto {
         margin: 20px;
         line-height: 15px;
@@ -106,43 +130,44 @@
         h3 {
             font-size: 17px;
         }
-    
+
         p {
             font-size: 16px;
         }
     }
-    
-    
+
+
     .cards-container {
         flex-direction: column;
         justify-content: unset;
         align-content: center;
         width: 100%;
-    
+
         .card {
-            width: 90%; 
+            width: 90%;
             box-shadow: none;
             border: none;
-    
+
             .card-info {
                 h3 {
                     padding: 5px;
                     font-size: 20px;
                 }
-    
+
                 p {
                     padding: 15px;
                     margin: 10px;
                     font-size: 16px;
                 }
+
                 a {
                     display: flex;
                     width: auto;
                     justify-content: space-around;
                     text-decoration: none;
                 }
-    
+
             }
         }
-    }   
+    }
 }

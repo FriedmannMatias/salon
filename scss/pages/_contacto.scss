@@ -64,7 +64,7 @@
     }
 }
 
-@media screen and (max-width: 824px) {
+@media screen and (max-width: 844px) {
     .contact-container {
         @include flexbox (column, normal, center);
         width: unset;
