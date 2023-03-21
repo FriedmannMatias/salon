@@ -216,7 +216,7 @@ main {
           color: #000000; }
 
 .card-contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../multimedia/card-contact.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../multimedia/card-contact.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
